@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<title> Estudo Jquery</title>
+	<link rel="stylesheet" type="text/css" href="carrinho.css">
+</head>
+<body>
+	<div class="carrinho">
+		<h2>Carrinho de entrega</h2>
+		<table>
+			<thead>
+				<tr>
+					<td></td>
+					<td class="nome1">Nome</td>
+					<td>Quantidade</td>
+					<td>Valor</td>
+					<td>Total</td>
+				</tr>
+			</thead>
+		  <tbody>
+				<tr>
+					<td><img src="imagens/tablets.jpg"></td>
+					<td class="nome2">Tablet</td>
+					<td>1</td>
+					<td>499.99</td>
+					<td class="item-total">499.99</td>
+					<td><a class="remove-item" href="">(remover)</td>
+				</tr>
+				<tr>
+					<td><img src="imagens/telefone.jpg"></td>
+					<td class="nome3">Telefone</td>
+					<td>2</td>
+					<td>199.99</td>
+					<td class="item-total">399.99</td>
+					<td><a class="remove-item" href="">(remover)</td>
+				</tr>
+				<tr>
+					<td><img src="imagens/sapato.jpg"></td>
+					<td class="nome4">Sapato</td>
+					<td>1</td>
+					<td>99.99</td>
+					<td class="item-total">99.99</td>
+					<td><a class="remove-item" href="">(remover)</td>
+				</tr>
+				<tr>
+					<td><img src="imagens/monitor.jpg"></td>
+					<td class="nome4">Monitor</td>
+					<td>1</td>
+					<td>299.00</td>
+					<td class="item-total">299.00</td>
+					<td><a class="remove-item" href="">(remover)</td>
+				</tr>
+				<tr>
+					<td><img src="imagens/teclado.jpg"></td>
+					<td class="nome5">Teclado</td>
+					<td>1</td>
+					<td>100.00</td>
+					<td class="item-total">100.00</td>
+					<td><a class="remove-item" href="">(remover)</td>
+				</tr>
+				<tr>
+					<td><img src="imagens/mouse.jpg"></td>
+					<td class="nome6">Mouse</td>
+					<td>1</td>
+					<td>199.00</td>
+					<td class="item-total">199.00</td>
+					<td><a class="remove-item" href="">(remover)</td>
+				</tr>
+				<tr>
+					<td><img src="imagens/camiseta.jpg"></td>
+					<td class="nome7">Camiseta</td>
+					<td>1</td>
+					<td>25.00</td>
+					<td class="item-total">25.00</td>
+					<td><a class="remove-item" class="remove-item" href="">(remover)</td>
+				</tr>
+	  </tbody>
+    </table>
+
+   </div>
+   	
+   	<div>
+   		<input type="button" value="Undo">
+   	</div>
+
+
+
+   	 <div>
+   	
+   		Valor Total: R$ <span id="valor-total">0</span>    	 
+   	 <br>
+   	 	Quantidade de itens: <span id="qto-itens">0</span>
+   	 </div>
+
+
+   	 
+   <script src="jquery-3.2.1.min.js"></script>
+   <script src="carrinho.js"></script>   
+ </body>
+</html>
